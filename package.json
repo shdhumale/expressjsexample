@@ -1,0 +1,23 @@
+{
+  "name": "expressjsexample",
+  "version": "1.0.0",
+  "description": "This package contain few of the express js example that can be used for reference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shdhumale/expressjsexample.git"
+  },
+  "author": "Siddharatha Dhumale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shdhumale/expressjsexample/issues"
+  },
+  "homepage": "https://github.com/shdhumale/expressjsexample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
