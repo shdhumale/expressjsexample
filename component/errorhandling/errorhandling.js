@@ -28,8 +28,11 @@ var port = 3000
 ]) */
 
 //using Try and catch to handle the Async function This can be done when we are trying to connect db.
+app.get('/', function (req, res) {
+    res.send("hello world")
+})
 
-app.get('/', [
+app.get('/siddhu', [
     function (req, res, next) {
         try {
             const post = db.post.insert({ title, author });
